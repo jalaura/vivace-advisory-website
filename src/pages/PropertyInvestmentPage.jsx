@@ -114,14 +114,14 @@ const PropertyInvestmentPage = () => {
                   Explore Property Options
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-green-900">
+                <Button size="lg" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-green-900 font-semibold">
                   Download Property Guide
                 </Button>
               </div>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-              <h3 className="text-2xl font-bold mb-6">Gold Coast Property Advantages</h3>
+              <h3 className="text-2xl font-bold mb-6">Sunshine Coast Property Advantages</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-green-400" />
@@ -396,14 +396,14 @@ const PropertyInvestmentPage = () => {
           </h2>
           <p className="text-xl text-green-100 mb-8">
             Discover how property investment through your SMSF can enhance your retirement outcomes 
-            while benefiting from our Gold Coast market expertise and comprehensive compliance management.
+            while benefiting from our Sunshine Coast market expertise and comprehensive compliance management.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-yellow-500 hover:bg-yellow-400 text-black font-semibold">
               Book Property Strategy Session
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-green-900">
+            <Button size="lg" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-green-900 font-semibold">
               Download Property Investment Guide
             </Button>
           </div>

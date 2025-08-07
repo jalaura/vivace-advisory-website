@@ -306,7 +306,7 @@ const ServicesPage = () => {
               Book Your Strategy Session
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-900">
+            <Button size="lg" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-blue-900 font-semibold">
               Download Service Guide
             </Button>
           </div>

@@ -86,26 +86,25 @@ const HomePage = () => {
                 SMSF Firm of the Year Nominee 2025
               </Badge>
               
-              <h1 id="hero-heading" className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-                Gold Coast's Award-Winning 
-                <span className="text-yellow-400"> SMSF Specialists</span>
-              </h1>
-              
-              <p className="text-xl md:text-2xl mb-4 text-blue-100 font-medium">
-                Where Ordinary Ends and Expertise Begins
-              </p>
-              
-              <p className="text-lg mb-8 text-blue-100 max-w-2xl">
-                Dual-licensed financial planning and tax expertise under one roof. 
-                100% Australian-based. 100% referral-driven. 100% focused on your SMSF success.
-              </p>
+              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              Sunshine Coast's<br />
+              Award-Winning<br />
+              <span className="text-yellow-400">SMSF Specialists</span>
+            </h1>
+            <p className="text-xl text-blue-100 mb-4">
+              Where Ordinary Ends and Expertise Begins
+            </p>
+            <p className="text-lg text-blue-200 mb-8 max-w-2xl">
+              Dual-licensed financial planning and tax expertise under one roof. 100% Australian-based. 
+              100% referral-driven. 100% focused on your SMSF success.
+            </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-yellow-500 hover:bg-yellow-400 text-black font-semibold" aria-label="Discover Your SMSF Potential">
                   Discover Your SMSF Potential
                   <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                 </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-900" aria-label="Book Consultation">
+                <Button size="lg" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-blue-900 font-semibold" aria-label="Book Consultation">
                   Book Consultation
                 </Button>
               </div>
@@ -148,26 +147,28 @@ const HomePage = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8" role="list">
             {services.map((service, index) => (
-              <article key={index} className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg" role="listitem">
-                <Card>
-                  <CardContent className="p-8">
+              <article key={index} className="group hover:shadow-xl transition-all duration-300" role="listitem">
+                <Card className="h-full border-0 shadow-lg">
+                  <CardContent className="p-8 h-full flex flex-col">
                     <div className="mb-6 group-hover:scale-110 transition-transform duration-300" aria-hidden="true">
                       {service.icon}
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-4">
                       {service.title}
                     </h3>
-                    <p className="text-gray-600 mb-6">
+                    <p className="text-gray-600 mb-6 flex-grow">
                       {service.description}
                     </p>
-                    <Link 
-                      to={service.link}
-                      className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition-colors"
-                      aria-label={`Learn more about ${service.title}`}
-                    >
-                      Learn More
-                      <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
-                    </Link>
+                    <div className="mt-auto">
+                      <Link 
+                        to={service.link}
+                        className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition-colors"
+                        aria-label={`Learn more about ${service.title}`}
+                      >
+                        Learn More
+                        <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
+                      </Link>
+                    </div>
                   </CardContent>
                 </Card>
               </article>
@@ -289,7 +290,7 @@ const HomePage = () => {
               Book Your Consultation
               <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-900" aria-label="Download SMSF Guide">
+            <Button size="lg" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-blue-900 font-semibold" aria-label="Download SMSF Guide">
               Download SMSF Guide
             </Button>
           </div>

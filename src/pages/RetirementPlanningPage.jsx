@@ -120,7 +120,7 @@ const RetirementPlanningPage = () => {
                   Plan Your Retirement
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-purple-900">
+                <Button size="lg" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-purple-900 font-semibold">
                   Download Retirement Guide
                 </Button>
               </div>
@@ -421,7 +421,7 @@ const RetirementPlanningPage = () => {
               Book Retirement Planning Session
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-purple-900">
+            <Button size="lg" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-purple-900 font-semibold">
               Download Retirement Planning Guide
             </Button>
           </div>

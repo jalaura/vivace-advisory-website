@@ -105,7 +105,7 @@ const SMSFEstablishmentPage = () => {
                   Assess SMSF Suitability
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-900">
+                <Button size="lg" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-blue-900 font-semibold">
                   Download Setup Guide
                 </Button>
               </div>
@@ -343,7 +343,7 @@ const SMSFEstablishmentPage = () => {
               Book SMSF Assessment
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-900">
+            <Button size="lg" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-blue-900 font-semibold">
               Download Establishment Guide
             </Button>
           </div>
