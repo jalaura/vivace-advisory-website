@@ -76,7 +76,7 @@ const ContactPage = () => {
               <Button size="lg" className="bg-yellow-500 hover:bg-yellow-400 text-black font-semibold">
                 Book Consultation
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-900">
+              <Button size="lg" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-blue-900 font-semibold">
                 Call Now: 07 5221 5545
               </Button>
             </div>
@@ -323,7 +323,7 @@ const ContactPage = () => {
             <Button size="lg" className="bg-yellow-500 hover:bg-yellow-400 text-black font-semibold">
               Book Your Consultation Now
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-900">
+            <Button size="lg" className="border-2 border-white bg-transparent text-white hover:bg-white hover:text-blue-900 font-semibold">
               Call 07 5221 5545
             </Button>
           </div>
